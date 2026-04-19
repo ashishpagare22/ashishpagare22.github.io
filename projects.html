@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashish Pagare | Projects</title>
+<meta name="description" content="Projects by Ashish Pagare presented for graduate software, AI/data, and cloud applications.">
+<meta name="author" content="Ashish Pagare">
+<meta name="theme-color" content="#10263d">
+<meta property="og:title" content="Ashish Pagare | Projects">
+<meta property="og:description" content="Project case studies covering machine learning, computer vision, and cloud deployment work.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="page-projects">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<div class="scroll-progress" aria-hidden="true">
+  <span class="scroll-progress__bar"></span>
+</div>
+
+<header class="site-header">
+  <div class="container nav-bar">
+    <a class="brand" href="index.html">Ashish Pagare</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="nav-toggle__line"></span>
+      <span class="nav-toggle__line"></span>
+      <span class="nav-toggle__line"></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+    <nav class="nav-links" id="primary-nav" aria-label="Primary">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="projects.html" aria-current="page">Projects</a>
+      <a class="nav-link" href="skills.html">Skills and Focus</a>
+      <a class="nav-link" href="certifications.html">Certifications</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="site-main" id="main-content">
+  <section class="page-hero">
+    <div class="container page-hero__grid">
+      <div class="panel hero-copy">
+        <p class="eyebrow">Work Samples</p>
+        <h1>Projects presented the way recruiters usually scan them: problem, build, tools, and relevance.</h1>
+        <p class="lead">
+          These project summaries focus on execution, technical choices, and the kind of thinking I
+          bring to graduate-level engineering work. The interactive project board below lets reviewers
+          filter quickly and open extra build notes only when they want more detail.
+        </p>
+        <div class="chip-row">
+          <span class="chip">Machine learning and computer vision</span>
+          <span class="chip">Cloud deployment exposure</span>
+          <span class="chip">GitHub-backed learning path</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button button--primary" href="https://github.com/ashishpagare22" target="_blank" rel="noreferrer">GitHub Profile</a>
+          <a class="button button--secondary" href="contact.html">Contact</a>
+          <button class="button button--ghost" type="button" data-scroll-target="#project-lab">Filter Projects</button>
+        </div>
+      </div>
+
+      <aside class="panel hero-side">
+        <p class="eyebrow">Project Themes</p>
+        <ul class="info-list">
+          <li>
+            <span>Strongest Evidence</span>
+            <strong>Computer vision and applied machine learning</strong>
+          </li>
+          <li>
+            <span>Supporting Proof</span>
+            <strong>GitHub repositories, HackerRank profile, and certifications</strong>
+          </li>
+          <li>
+            <span>Core Build Stack</span>
+            <strong>Python, OpenCV, TensorFlow, MediaPipe, AWS</strong>
+          </li>
+          <li>
+            <span>Recruiter Goal</span>
+            <strong>Show practical execution, not only academic interest</strong>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="project-lab">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Interactive Project Board</p>
+        <h2>Filter the work by theme and open deeper notes only when needed.</h2>
+        <p class="section-copy">
+          This keeps the page fast for a first review while still giving enough depth for technical
+          conversations.
+        </p>
+      </div>
+
+      <div class="panel filter-panel">
+        <div class="filter-toolbar">
+          <div class="filter-pill-row" aria-label="Project filters">
+            <button class="filter-pill is-active" type="button" data-project-filter="all">All Projects</button>
+            <button class="filter-pill" type="button" data-project-filter="ml">Machine Learning</button>
+            <button class="filter-pill" type="button" data-project-filter="cv">Computer Vision</button>
+            <button class="filter-pill" type="button" data-project-filter="cloud">Cloud</button>
+          </div>
+          <p class="filter-status" data-project-status>Showing 3 projects ready for review.</p>
+        </div>
+
+        <div class="card-grid card-grid--three">
+          <article class="card card--accent project-card" data-project-item="ml cv">
+            <div class="project-card__top">
+              <div>
+                <p class="card-label">Featured Project</p>
+                <h3>Indian Sign Language Detection</h3>
+              </div>
+              <span class="project-score">High relevance</span>
+            </div>
+            <p class="project-summary">
+              Real-time gesture recognition system built to identify sign-language gestures from live
+              visual input using a full computer vision and ML workflow.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Python</span>
+              <span class="tag">MediaPipe</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Accessibility-focused idea</span>
+            </div>
+            <details class="project-details">
+              <summary>Open build notes</summary>
+              <ul class="clean-list">
+                <li>Combined MediaPipe landmarks with model-driven gesture recognition for real-time prediction.</li>
+                <li>Shows the ability to connect ML logic with user-facing software behaviour.</li>
+                <li>Strongest fit for recruiters hiring around applied ML, experimentation, and engineering fundamentals.</li>
+              </ul>
+            </details>
+            <div class="project-actions">
+              <a class="button button--secondary" href="https://github.com/ashishpagare22/indian-sign-language-detection" target="_blank" rel="noreferrer">View Repository</a>
+            </div>
+          </article>
+
+          <article class="card project-card" data-project-item="cv">
+            <div class="project-card__top">
+              <div>
+                <p class="card-label">Computer Vision</p>
+                <h3>Face Recognition System</h3>
+              </div>
+              <span class="project-score">Hands-on CV</span>
+            </div>
+            <p class="project-summary">
+              Face detection and recognition workflow focused on real-time image analysis, pattern
+              matching, and experimentation with core computer vision concepts.
+            </p>
+            <div class="tag-row">
+              <span class="tag">OpenCV</span>
+              <span class="tag">Image processing</span>
+              <span class="tag">Real-time analysis</span>
+            </div>
+            <details class="project-details">
+              <summary>Open build notes</summary>
+              <ul class="clean-list">
+                <li>Explores detection, comparison, and visual-processing logic in a practical setting.</li>
+                <li>Shows comfort applying libraries to a concrete problem instead of only studying concepts.</li>
+                <li>Repository can be linked here when the project is ready for public sharing.</li>
+              </ul>
+            </details>
+            <div class="project-actions">
+              <span class="button button--ghost button--disabled">Repository Coming Soon</span>
+            </div>
+          </article>
+
+          <article class="card project-card" data-project-item="cloud">
+            <div class="project-card__top">
+              <div>
+                <p class="card-label">Cloud Deployment</p>
+                <h3>AWS Deployed Web Application</h3>
+              </div>
+              <span class="project-score">Delivery mindset</span>
+            </div>
+            <p class="project-summary">
+              Web application deployment workflow on AWS that connects application development with
+              hosting, release thinking, and cloud service familiarity.
+            </p>
+            <div class="tag-row">
+              <span class="tag">AWS</span>
+              <span class="tag">Deployment</span>
+              <span class="tag">Production thinking</span>
+            </div>
+            <details class="project-details">
+              <summary>Open build notes</summary>
+              <ul class="clean-list">
+                <li>Highlights interest in how software reaches real users, not only how it runs locally.</li>
+                <li>Supports graduate applications where cloud exposure and willingness to learn matter.</li>
+                <li>Live link or repository can be added once the public version is ready to share.</li>
+              </ul>
+            </details>
+            <div class="project-actions">
+              <span class="button button--ghost button--disabled">Public Link Coming Soon</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split-block">
+      <div class="card">
+        <p class="card-label">How To Read These Projects</p>
+        <h2>Each one is included for a different hiring signal.</h2>
+        <div class="timeline-list">
+          <article class="timeline-card">
+            <span>Signal 1</span>
+            <h3>Applied ML and CV</h3>
+            <p>Projects show curiosity plus the ability to make technical ideas work in live workflows.</p>
+          </article>
+          <article class="timeline-card">
+            <span>Signal 2</span>
+            <h3>Software Thinking</h3>
+            <p>The summaries focus on goals, tools, and outcomes so a recruiter can judge engineering potential quickly.</p>
+          </article>
+          <article class="timeline-card">
+            <span>Signal 3</span>
+            <h3>Delivery Awareness</h3>
+            <p>Cloud deployment work adds evidence that the interest extends beyond local prototypes.</p>
+          </article>
+        </div>
+      </div>
+
+      <aside class="panel support-panel">
+        <p class="eyebrow">Extra Proof</p>
+        <ul class="info-list">
+          <li>
+            <span>GitHub</span>
+            <strong><a href="https://github.com/ashishpagare22" target="_blank" rel="noreferrer">github.com/ashishpagare22</a></strong>
+          </li>
+          <li>
+            <span>HackerRank</span>
+            <strong><a href="https://www.hackerrank.com/profile/ashishpagare2210" target="_blank" rel="noreferrer">Problem-solving profile</a></strong>
+          </li>
+          <li>
+            <span>Next Review</span>
+            <strong><a href="certifications.html">Open the full certification record</a></strong>
+          </li>
+          <li>
+            <span>Direct Contact</span>
+            <strong><a href="contact.html">Use recruiter-ready contact actions</a></strong>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>Ashish Pagare | Project portfolio for graduate technology applications.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills and Focus</a>
+      <a href="certifications.html">Certifications</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" type="button" aria-label="Back to top">Top</button>
+<div class="floating-note" aria-live="polite" aria-atomic="true"></div>
+<script src="script.js" defer></script>
+</body>
+</html>
